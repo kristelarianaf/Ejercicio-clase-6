@@ -119,3 +119,14 @@ header,
 .navbar {
   margin-bottom: 2rem; /* Ajustá el valor a gusto */
 }
+/* Altura fija para el contenedor del carrusel */
+.carousel-inner {
+  height: 120VH; /* Podés ajustar la altura que prefieras (ej: 400px, 500px, 60vh) */
+}
+/* Forzar a que las imágenes ocupen todo el contenedor sin deformarse */
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Recorta los bordes sobrantes manteniendo la proporción */
+  object-position: center; /* Centra el encuadre de la foto */
+}
