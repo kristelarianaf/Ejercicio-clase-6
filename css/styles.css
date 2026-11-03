@@ -130,3 +130,14 @@ header,
   object-fit: cover; /* Recorta los bordes sobrantes manteniendo la proporción */
   object-position: center; /* Centra el encuadre de la foto */
 }
+/* Botón con fondo púrpura relleno */
+.btn-purple {
+  background-color: #321c59;
+  color: #ffffff;
+  border: 1px solid #6f42c1;
+}
+.btn-purple:hover {
+  background-color: #160c2a;
+  border-color: #21113d;
+  color: #ffffff;
+}
