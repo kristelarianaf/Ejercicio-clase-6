@@ -115,3 +115,7 @@ a {
   max-height: 650px;
   object-fit: cover; /* Evita que las imágenes se deformen */
 }
+header, 
+.navbar {
+  margin-bottom: 2rem; /* Ajustá el valor a gusto */
+}
