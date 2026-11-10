@@ -141,3 +141,9 @@ header,
   border-color: #21113d;
   color: #ffffff;
 }
+
+.fondo-amarillo {
+  background-color: #ebde6d; /* o yellow, #fff3cd, etc. */
+  padding: 2rem;
+  border-radius: 8px;
+}
